@@ -44,3 +44,15 @@ variable "environment" {
   default     = "Development" # Optional default value
 }
 
+
+# ADF variables
+variable "data_factory_name" {
+  description = "The name of the Azure Data Factory"
+  type        = string
+}
+
+variable "sku_name" {
+  description = "The SKU name for the Azure Data Factory"
+  type        = string
+  default     = "Standard" # Default value can be set to "Basic", "Standard", or "Premium"
+}
