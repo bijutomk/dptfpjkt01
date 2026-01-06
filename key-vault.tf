@@ -3,10 +3,10 @@ resource "azurerm_key_vault" "kv" {
   location            = var.location
   resource_group_name = azurerm_resource_group.example.name
 
-  sku {
-    family = "A"                    # SKU family
-    name   = var.key_vault_sku_name # SKU name (standard or premium)
-  }
+  #  sku {
+  #    family = "A"                    # SKU family
+  #    name   = var.key_vault_sku_name # SKU name (standard or premium)
+  #  }
 
   tenant_id = data.azurerm_client_config.example.tenant_id
 

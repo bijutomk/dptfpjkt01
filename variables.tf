@@ -64,10 +64,10 @@ variable "key_vault_name" {
   type        = string
 }
 
-variable "key_vault_sku_name" {
-  description = "The SKU name for the Azure Key Vault"
-  type        = string
-  default     = "standard" # Options: "standard", "premium"
-}
+#variable "key_vault_sku_name" {
+#  description = "The SKU name for the Azure Key Vault"
+#  type        = string
+#  default     = "standard" # Options: "standard", "premium"
+#}
 
 
