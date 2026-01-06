@@ -70,3 +70,4 @@ variable "key_vault_sku_name" {
   default     = "standard" # Options: "standard", "premium"
 }
 
+
