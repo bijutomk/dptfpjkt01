@@ -56,3 +56,17 @@ variable "sku_name" {
   type        = string
   default     = "Standard" # Default value can be set to "Basic", "Standard", or "Premium"
 }
+
+
+# KV variables
+variable "key_vault_name" {
+  description = "The name of the Azure Key Vault"
+  type        = string
+}
+
+variable "key_vault_sku_name" {
+  description = "The SKU name for the Azure Key Vault"
+  type        = string
+  default     = "standard" # Options: "standard", "premium"
+}
+
